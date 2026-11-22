@@ -1,17 +1,17 @@
 class Portfelj < Formula
-    desc "IB flex explorer and tax returns generator for eDavki"
+    desc "IB flex report explorer and XML converter for eDavki"
     license "Proprietary"
-    homepage "https://github.com/codebydre/portfelj"
-    version "0.6.0"
+    homepage "https://github.com/arnika-us/portfelj"
+    version "0.6.1"
 
     on_arm do
-        url "https://github.com/codebydre/homebrew-portfelj/releases/download/v0.6.0/portfelj-0.6.0-macos-arm64.tar.gz"
-        sha256 "107d1cd22584342eb97edfcece6e5ad75d8979c1e3f8c6002e1b2e7a672f66ed"
+        url "https://github.com/arnika-us/homebrew-portfelj/releases/download/v0.6.1/portfelj-cli-0.6.1-macos-arm64.tar.gz"
+        sha256 "033c2eb8cdf9d66217c2b3ce633bcfb71693b1d4cf66e8121bb2ff0d2a63ccc1"
     end
 
     on_intel do
-        url "https://github.com/codebydre/homebrew-portfelj/releases/download/v0.6.0/portfelj-0.6.0-macos-x64.tar.gz"
-        sha256 "a4846a83af64dfea8617b27a33dff8d13f5a8de632feff5b8c20cd4e9db6851c"
+        url "https://github.com/arnika-us/homebrew-portfelj/releases/download/v0.6.1/portfelj-cli-0.6.1-macos-x64.tar.gz"
+        sha256 "3b8a2e4212cd931ee2b0146ce0c0901b97589b1c4c972832a42ad2d49fadc467"
     end
 
     def install
